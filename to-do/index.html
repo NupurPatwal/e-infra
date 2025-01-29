@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-section">
+            <h1 class="title">To-Do List</h1>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Add your task" class="input-task" />
+        </div>
+        <div class="input-section">
+            <input type="text" placeholder="Add your task" class="input-task" />
+            <button class="add-button">ADD</button>
+        </div>
+        <ul class="task-list">
+            <li class="task-item">
+                <div>
+                    <input type="checkbox" />
+                    <span></span>
+                </div>
+                <div class="task-buttons">
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
